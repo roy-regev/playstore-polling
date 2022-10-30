@@ -39,6 +39,6 @@ You can also call it with DELETE and delete a tracked app.
 
 **TODO**: Implement 100% of Swagger, some validations for each route (what happens if I send a badly formatted URL?), a smarter configuration system (using maybe default.json/per environement setting JSON and the ability to edit any key).
 
-** Cloud deployment:
+## Cloud deployment:
 
 How would I deploy this on the cloud? I would create a Docker image, including the relevant dependency which is really just NodeJS. Then, I would deploy the image on some cloud based platform, like Kubernetes, and I guess that is the general idea. I also like the idea, because right now I'm using node-cache for my cache, but what if I decide to use Redis? What if I want to save my images in some DB? Adding those dependencies would be very easy to maintain and deploy with Docker!
