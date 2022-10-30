@@ -1,0 +1,35 @@
+{
+  "name": "playstore-polling",
+  "version": "1.0.0",
+  "description": "API for polling App Listings on Play Store",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roy-regev/playstore-polling.git"
+  },
+  "author": "Roy Regev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roy-regev/playstore-polling/issues"
+  },
+  "homepage": "https://github.com/roy-regev/playstore-polling#readme",
+  "devDependencies": {
+    "express-swagger-generator": "^1.1.17",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
