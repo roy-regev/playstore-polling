@@ -37,7 +37,7 @@ You can also call it with DELETE and delete a tracked app.
 
 ---
 
-**TODO**: Implement 100% of Swagger, some validations for each route (what happens if I send a badly formatted URL?), a smarter configuration system (using maybe default.json/per environement setting JSON and the ability to edit any key).
+**TODO**: Implement 100% of Swagger, some validations for each route (what happens if I send a badly formatted URL?), a smarter configuration system (using maybe default.json/per environement setting JSON and the ability to edit any key). I will note a disclaimer that I just started my degree last week so I am very busy, and thus maybe this isn't the most efficient or clean code. I put in about two days into this because I had to learn a lot of things, and so due to time contraints this is really the best I could do. Hope you will apprecaite it! :)
 
 ## Cloud deployment:
 
