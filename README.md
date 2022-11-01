@@ -28,7 +28,7 @@ You can also call it with DELETE and delete a tracked app.
 {
 "app_name": "com.kabam.bullseye"
 }
-**Tip**: You can get all the trackewd apps with the tracedUrls route, and then take from that one an ID of an app you want to check.
+**Tip**: You can get all the tracked apps with the trackedUrls route, and then take from that one an ID of an app you want to check.
 
 * localhost:5000/settings - This app allows you to change any setting in theory, but right now it's not smart. It only allow sto change the Cron expression for how frequently screenshots are taken:
 {
@@ -37,8 +37,4 @@ You can also call it with DELETE and delete a tracked app.
 
 ---
 
-**TODO**: Implement 100% of Swagger, some validations for each route (what happens if I send a badly formatted URL?), a smarter configuration system (using maybe default.json/per environement setting JSON and the ability to edit any key). I will note a disclaimer that I just started my degree last week so I am very busy, and thus maybe this isn't the most efficient or clean code. I put in about two days into this because I had to learn a lot of things, and so due to time contraints this is really the best I could do. Hope you will apprecaite it! :)
-
-## Cloud deployment:
-
-How would I deploy this on the cloud? I would create a Docker image, including the relevant dependency which is really just NodeJS. Then, I would deploy the image on some cloud based platform, like Kubernetes, and I guess that is the general idea. I also like the idea, because right now I'm using node-cache for my cache, but what if I decide to use Redis? What if I want to save my images in some DB? Adding those dependencies would be very easy to maintain and deploy with Docker!
+**TODO**: Implement 100% of Swagger, some validations for each route (what happens if I send a badly formatted URL?), a smarter configuration system (using maybe default.json/per environement setting JSON and the ability to edit any key).
