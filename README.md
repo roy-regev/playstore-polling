@@ -28,9 +28,10 @@ You can also call it with DELETE and delete a tracked app.
 {
 "app_name": "com.kabam.bullseye"
 }
+
 **Tip**: You can get all the tracked apps with the trackedUrls route, and then take from that one an ID of an app you want to check.
 
-* localhost:5000/settings - This app allows you to change any setting in theory, but right now it's not smart. It only allow sto change the Cron expression for how frequently screenshots are taken:
+* localhost:5000/settings - This app allows you to change any setting in theory, but right now it's not smart. It only allows to change the Cron expression for how frequently screenshots are taken:
 {
 "cron_expression": */2 * * * *
 }
